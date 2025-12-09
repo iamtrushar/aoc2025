@@ -1,6 +1,9 @@
 # aoc2025
 
 ```
+# change directory to example
+cd day1/safe-dial
+
 # install depndencies
 npm install http-server --save-dev
 
