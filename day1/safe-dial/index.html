@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Safe Dial 0–99</title>
+    <meta charset="utf-8" />
+    <style>
+        body { font-family: sans-serif; text-align: center; }
+        canvas { margin-top: 40px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+<h2>Safe Dial (0–99)</h2>
+<canvas id="dial" width="300" height="300"></canvas>
+
+<div id="value" style="font-size:24px; margin-top:20px;"></div>
+<div id="zeroCounter" style="font-size:24px; margin-top:20px;"></div>
+
+<script src="dial.js"></script>
+
+<!-- Optional Esri Loader Space
+<script src="https://js.arcgis.com/4.29/"></script>
+<script>
+  require(["esri/Map", "esri/views/MapView"], (Map, MapView) => {
+      const map = new Map({ basemap: "streets" });
+      const view = new MapView({
+          container: "viewDiv",
+          map,
+          center: [-112, 51],
+          zoom: 5
+      });
+
+      // Example hookup:
+      window.onDialChange = (val) => {
+          console.log("Dial → Map:", val);
+          // update graphics here
+      };
+  });
+</script>
+-->
+
+</body>
+</html>
